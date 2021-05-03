@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul 15 13:51:34 2020
-
 @author: Alexandre_Souchaud
 
 This program has been developped in order to treat confocal images. 
@@ -10,6 +9,7 @@ To recontruct the shape in 3D, an activ contour function has been used.
 Then, this contour is fitted by an ellipsoid.
 All this parameters are used to analyse the evolution of the shape in time.
 
+The file "functions.py" has to be used with this program.
 
 The active contour method used is morphological_geodesic_active_contour
 https://github.com/scikit-image/scikit-image/blob/main/skimage/segmentation/morphsnakes.py
